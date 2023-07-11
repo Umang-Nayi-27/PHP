@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <form method="get" action="login.php">
+            <label id="name"> Name  </label>
+            <input type="text" name="name" placeholder="enter name "/><br>
+            <label id="pass">  Password </label>
+            <input type="password" name="pass" placeholder="enter password "/>
+            <input type="submit" name="submit"/>
+        </form>
+        <?php
+        
+            if(isset($_GET["submit"]))
+            {
+                echo $_GET[".name"]."<br>";
+            }
+//        class test
+//        {
+//            public function showdata(){
+//                echo "test class"; 
+//            }
+//            
+//            
+//        }
+//        
+//        function __autoload($test)
+//        {
+//            include $test.".php";
+//        }
+//        $s1 = new test();
+//        $s1->showdata();
+//        ?>
+    </body>
+</html>
