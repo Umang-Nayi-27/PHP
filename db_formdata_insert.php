@@ -10,7 +10,7 @@
     else{
         echo "connected successfully"."<br>";
     }
-// now check all feild of form are filled or not
+//form-validation ..... now check all feild of form are filled or not
     if(isset($_GET["submit"]))                  // [] bracket vaprya ()  na vapray . . . .
     {
         $name = $_GET["name"];
