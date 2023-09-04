@@ -19,3 +19,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     }
 }
 ?>
+
+
+<!-- 
+1. use $_file function and store file in temp...
+2. move file, which is in temp to...... its Main location usinng move_uploaded_file("temp","main") 
+-->
